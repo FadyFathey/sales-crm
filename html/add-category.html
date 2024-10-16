@@ -8,7 +8,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Dashboard - Analytics | Materio - Bootstrap Material Design Admin Template</title>
+    <title>add category</title>
 
     <meta name="description" content="" />
 
@@ -45,18 +45,6 @@
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../assets/js/config.js"></script>
-    <style>
-        @media (max-width: 600px) {
-            .date-set {
-                flex-direction: column;
-                gap: 5px !important;
-            }
-
-            .date-set .form-floating {
-                width: 300px !important;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -164,13 +152,13 @@
                         </ul>
                     </li>
 
-                    <li class="menu-item open">
+                    <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-google-circles-extended"></i>
                             <div data-i18n="Account Settings">Marketing Managment</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item active">
+                            <li class="menu-item">
                                 <a href="campaign.html" class="menu-link">
                                     <div data-i18n="Account">Campaign</div>
                                 </a>
@@ -178,13 +166,13 @@
                         </ul>
                     </li>
 
-                    <li class="menu-item">
+                    <li class="menu-item open">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-vector-square"></i>
                             <div data-i18n="Account Settings">Customer Relationship Management</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item">
+                            <li class="menu-item active">
                                 <a href="profile.html" class="menu-link">
                                     <div data-i18n="Account">Leads</div>
                                 </a>
@@ -360,11 +348,7 @@
                     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                         <!-- Search -->
                         <div class="navbar-nav align-items-center">
-                            <div class="nav-item d-flex align-items-center">
-                                <i class="mdi mdi-magnify mdi-24px lh-0"></i>
-                                <input type="text" class="form-control border-0 shadow-none bg-body"
-                                    placeholder="Search..." aria-label="Search..." />
-                            </div>
+
                         </div>
                         <!-- /Search -->
 
@@ -447,111 +431,120 @@
 
                 <!-- Content wrapper -->
                 <div class="content-wrapper">
-                    <!-- Content -->
 
+                    <!-- Content -->
                     <div class="container-xxl flex-grow-1 container-p-y">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title">Campaigns</h5>
-                                <hr>
-                                <div class="card-body"
-                                    style="padding: 0; display: flex; align-items: center; gap: 20px;">
-                                    <div class="mb-3" style="width: 500px; ">
-                                        <label for="defaultSelect" class="form-label">Campaign</label>
-                                        <select id="defaultSelect" class="form-select">
-                                            <option>Default select</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3" style="width: 500px; ">
-                                        <label for="defaultSelect" class="form-label">Team</label>
-                                        <select id="defaultSelect" class="form-select">
-                                            <option>Default select</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                    <div class="mb-3" style="width: 500px; ">
-                                        <label for="defaultSelect" class="form-label">Type</label>
-                                        <select id="defaultSelect" class="form-select">
-                                            <option>Default select</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
+                        <h4 class="py-3 mb-4"><span class="text-muted fw-light"></span>Categories</h4>
+                        <div class="row">
+                            <!-- Basic Layout -->
+                            <div class="col-xxl">
+                                <div class="card mb-4">
+
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    English Classification</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder="658 799 8941"
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    French Classification</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder="658 799 8941"
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    Arabic Classification</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder="658 799 8941"
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label"
+                                                    for="exampleFormControlSelect1">Color</label>
+                                                <div class="col-sm-10">
+                                                    <select class="form-select" id="exampleFormControlSelect1"
+                                                        aria-label="Countries">
+                                                        <option selected>Open this select menu</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label"
+                                                    for="exampleFormControlSelect1">Logo</label>
+                                                <div class="col-sm-10">
+                                                    <select class="form-select" id="exampleFormControlSelect1"
+                                                        aria-label="Countries">
+                                                        <option selected>Open this select menu</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label"
+                                                    for="basic-default-message">English Notes
+                                                </label>
+                                                <div class="col-sm-10">
+                                                    <textarea id="basic-default-message" class="form-control"
+                                                        placeholder="Hi, Do you have a moment to talk Joe?"
+                                                        aria-label="Hi, Do you have a moment to talk Joe?"
+                                                        aria-describedby="basic-icon-default-message2"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label"
+                                                    for="basic-default-message">French Notes
+                                                </label>
+                                                <div class="col-sm-10">
+                                                    <textarea id="basic-default-message" class="form-control"
+                                                        placeholder="Hi, Do you have a moment to talk Joe?"
+                                                        aria-label="Hi, Do you have a moment to talk Joe?"
+                                                        aria-describedby="basic-icon-default-message2"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label"
+                                                    for="basic-default-message">Arabic Notes
+                                                </label>
+                                                <div class="col-sm-10">
+                                                    <textarea id="basic-default-message" class="form-control"
+                                                        placeholder="Hi, Do you have a moment to talk Joe?"
+                                                        aria-label="Hi, Do you have a moment to talk Joe?"
+                                                        aria-describedby="basic-icon-default-message2"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-end ">
+                                                <div class="col-sm-10">
+                                                    <button type="submit" class="btn btn-primary w-100">Send</button>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
-                                <div class="date-set card-body date-range"
-                                    style="padding: 0; display: flex; justify-content: center; align-items: center; gap: 20px;">
-                                    <div class="form-floating form-floating-outline mb-4" style="width: 500px;">
-                                        <input class="form-control" type="datetime-local"
-                                            id="html5-datetime-local-input">
-                                        <label for="html5-datetime-local-input">Datetime<span
-                                                style="font-weight: bold;"> From</span></label>
-                                    </div>
-                                    <div class="form-floating form-floating-outline mb-4" style="width: 500px;">
-                                        <input class="form-control" type="datetime-local"
-                                            id="html5-datetime-local-input">
-                                        <label for="html5-datetime-local-input">Datetime<span
-                                                style="font-weight: bold;"> To</span></label>
-                                    </div>
-                                </div>
-                                <hr>
-                                <a class="btn btn-outline-success waves-effect me-2" href="#">Search</a>
-                                <a class="btn btn-outline-secondary waves-effect" href="#">Reset</a>
-                            </div>
-                        </div>
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h5 class="card-title">Companies</h5>
-                                <hr>
-                                <div class="card-body mb-3"
-                                    style="padding: 0; display: flex; align-items: center; gap: 20px;">
-                                    <div class="form-floating form-floating-outline" style="width: 500px;">
-                                        <input class="form-control" type="text" placeholder="Enter Title"
-                                            id="html5-text-input">
-                                        <label for="html5-text-input">Title</label>
-                                    </div>
-                                    <div class="form-floating form-floating-outline" style="width: 500px;">
-                                        <input class="form-control" type="tel" placeholder="90-(164)-188-556"
-                                            id="html5-tel-input">
-                                        <label for="html5-tel-input">Mobile</label>
-                                    </div>
-                                    <div style="width: 500px; ">
-                                        <select id="defaultSelect" class="form-select" style="height: 49px;">
-                                            <option>Companies</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="date-set card-body date-range"
-                                    style="padding: 0; display: flex; justify-content: center; align-items: center; gap: 20px;">
-                                    <div class="form-floating form-floating-outline mb-4" style="width: 500px;">
-                                        <input class="form-control" type="datetime-local"
-                                            id="html5-datetime-local-input">
-                                        <label for="html5-datetime-local-input">Datetime<span
-                                                style="font-weight: bold;"> From</span></label>
-                                    </div>
-                                    <div class="form-floating form-floating-outline mb-4" style="width: 500px;">
-                                        <input class="form-control" type="datetime-local"
-                                            id="html5-datetime-local-input">
-                                        <label for="html5-datetime-local-input">Datetime<span
-                                                style="font-weight: bold;"> To</span></label>
-                                    </div>
-                                </div>
-                                <hr>
-                                <a class="btn btn-outline-success waves-effect me-2" href="#">Search</a>
-                                <a class="btn btn-outline-secondary waves-effect" href="#">Reset</a>
                             </div>
                         </div>
                     </div>
                     <!-- / Content -->
-
                     <div class="content-backdrop fade"></div>
                 </div>
                 <!-- Content wrapper -->
