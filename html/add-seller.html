@@ -8,7 +8,7 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>add markting team</title>
+    <title>seller</title>
 
     <meta name="description" content="" />
 
@@ -73,13 +73,13 @@
 
                 <ul class="menu-inner py-1">
                     <!-- Dashboards -->
-                    <li class="menu-item active">
+                    <li class="menu-item active open">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-home-outline"></i>
                             <div data-i18n="Dashboards">Dashboards</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item">
+                            <li class="menu-item active">
                                 <a href="index.html" class="menu-link">
                                     <div data-i18n="Analytics">Analytics</div>
                                 </a>
@@ -166,13 +166,14 @@
                         </ul>
                     </li>
 
-                    <li class="menu-item open">
+                    <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-vector-square"></i>
                             <div data-i18n="Account Settings">Customer Relationship Management</div>
                         </a>
+
                         <ul class="menu-sub">
-                            <li class="menu-item active">
+                            <li class="menu-item">
                                 <a href="profile.html" class="menu-link">
                                     <div data-i18n="Account">Leads</div>
                                 </a>
@@ -455,7 +456,7 @@
 
                     <!-- Content -->
                     <div class="container-xxl flex-grow-1 container-p-y">
-                        <h4 class="py-3 mb-4"><span class="text-muted fw-light"></span>Marketing team</h4>
+                        <h4 class="py-3 mb-4"><span class="text-muted fw-light"></span> Project</h4>
                         <div class="row">
                             <!-- Basic Layout -->
                             <div class="col-xxl">
@@ -464,28 +465,169 @@
                                     <div class="card-body">
                                         <form>
                                             <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    Marketing team</label>
+                                                <label class="col-sm-2 col-form-label" for="basic-default-name">User
+                                                    Name</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder="658 799 8941"
+                                                    <input type="text" class="form-control" id="basic-default-name"
+                                                        placeholder="John Doe" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-name">
+                                                    Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="basic-default-name"
+                                                        placeholder="John Doe" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-name"> Confirm
+                                                    Password</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="basic-default-name"
+                                                        placeholder="John Doe" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-name"> First
+                                                    Name</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="basic-default-name"
+                                                        placeholder="John Doe" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-name"> Last
+                                                    Name</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="basic-default-name"
+                                                        placeholder="John Doe" />
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label"
+                                                    for="exampleFormControlSelect1">Kind</label>
+                                                <div class="col-sm-10">
+                                                    <select class="form-select" id="exampleFormControlSelect1"
+                                                        aria-label="Countries">
+                                                        <option selected>Open this select menu</option>
+                                                        <option value="1">male</option>
+                                                        <option value="2">Female</option>
+
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label"
+                                                    for="html5-datetime-local-input">Birth Date</label>
+                                                <div class="col-sm-10">
+                                                    <input class="form-control" type="datetime-local"
+                                                        id="html5-datetime-local-input" />
+                                                </div>
+                                            </div>
+                                            <div class=" row mb-3">
+                                                <label for="formFile" class="col-sm-2 col-form-label">Img
+                                                </label>
+                                                <div class="col-sm-10">
+                                                    <input class="form-control" type="file" id="formFile" />
+                                                </div>
+
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-name">
+                                                    Address</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="basic-default-name"
+                                                        placeholder="John Doe" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-name">
+                                                    Location</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="basic-default-name"
+                                                        placeholder="John Doe" />
+                                                </div>
+                                            </div>
+
+
+                                            <div class="card-header d-flex align-items-center justify-content-between">
+                                                <h5 class="mb-0 text-danger">Not Allowed To Input</h5>
+
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    Latitude</label>
+                                                <div class="col-sm-10">
+                                                    <input type="number" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder="0"
                                                         aria-label="658 799 8941"
                                                         aria-describedby="basic-default-phone" />
                                                 </div>
                                             </div>
                                             <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label"
-                                                    for="exampleFormControlSelect1">Branch</label>
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    Longitude</label>
                                                 <div class="col-sm-10">
-                                                    <select class="form-select" id="exampleFormControlSelect1"
-                                                        aria-label="Countries">
-                                                        <option selected>Open this select menu</option>
-                                                        <option value="1">One</option>
-                                                        <option value="2">Two</option>
-                                                        <option value="3">Three</option>
-                                                    </select>
+                                                    <input type="number" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder="0"
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
                                                 </div>
+                                            </div>
 
+
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    phone number</label>
+                                                <div class="col-sm-10">
+                                                    <input type="number" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder="0"
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    Mobile phone</label>
+                                                <div class="col-sm-10">
+                                                    <input type="number" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder="0"
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    Email</label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder=""
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    Website</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder=""
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
+                                                    Branch</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" id="basic-default-phone"
+                                                        class="form-control phone-mask" placeholder=""
+                                                        aria-label="658 799 8941"
+                                                        aria-describedby="basic-default-phone" />
+                                                </div>
                                             </div>
                                             <div class="row mb-3">
                                                 <label class="col-sm-2 col-form-label"
@@ -506,6 +648,8 @@
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                     <!-- / Content -->
