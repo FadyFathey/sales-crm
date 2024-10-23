@@ -7,8 +7,11 @@
     <meta charset="utf-8" />
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>seller</title>
+    <title>real estate buildings buildings list</title>
 
     <meta name="description" content="" />
 
@@ -73,13 +76,13 @@
 
                 <ul class="menu-inner py-1">
                     <!-- Dashboards -->
-                    <li class="menu-item active open">
+                    <li class="menu-item active">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-home-outline"></i>
                             <div data-i18n="Dashboards">Dashboards</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item active">
+                            <li class="menu-item">
                                 <a href="index.html" class="menu-link">
                                     <div data-i18n="Analytics">Analytics</div>
                                 </a>
@@ -166,14 +169,13 @@
                         </ul>
                     </li>
 
-                    <li class="menu-item">
+                    <li class="menu-item open">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-vector-square"></i>
                             <div data-i18n="Account Settings">Customer Relationship Management</div>
                         </a>
-
                         <ul class="menu-sub">
-                            <li class="menu-item">
+                            <li class="menu-item active">
                                 <a href="profile.html" class="menu-link">
                                     <div data-i18n="Account">Leads</div>
                                 </a>
@@ -313,7 +315,7 @@
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-vector-square"></i>
-                            <div data-i18n="Account Settings">categories</div>
+                            <div data-i18n="Account Settings">Categories</div>
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
@@ -419,7 +421,11 @@
                     <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                         <!-- Search -->
                         <div class="navbar-nav align-items-center">
-
+                            <div class="nav-item d-flex align-items-center">
+                                <i class="mdi mdi-magnify mdi-24px lh-0"></i>
+                                <input type="text" class="form-control border-0 shadow-none bg-body"
+                                    placeholder="Search..." aria-label="Search..." />
+                            </div>
                         </div>
                         <!-- /Search -->
 
@@ -502,10 +508,14 @@
 
                 <!-- Content wrapper -->
                 <div class="content-wrapper">
-
                     <!-- Content -->
                     <div class="container-xxl flex-grow-1 container-p-y">
-                        <h4 class="py-3 mb-4"><span class="text-muted fw-light"></span> Project</h4>
+                        <!-- Dashboard -->
+
+                        <!-- / Dashboard -->
+                        <!-- Activity Logs -->
+                        <!-- Contextual Classes -->
+                        <!-- dropdown menu -->
                         <div class="row">
                             <!-- Basic Layout -->
                             <div class="col-xxl">
@@ -513,186 +523,50 @@
 
                                     <div class="card-body">
                                         <form>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-name">User
-                                                    Name</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="basic-default-name"
-                                                        placeholder="John Doe" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-name">
-                                                    Password</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="basic-default-name"
-                                                        placeholder="John Doe" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-name"> Confirm
-                                                    Password</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="basic-default-name"
-                                                        placeholder="John Doe" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-name"> First
-                                                    Name</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="basic-default-name"
-                                                        placeholder="John Doe" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-name"> Last
-                                                    Name</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="basic-default-name"
-                                                        placeholder="John Doe" />
-                                                </div>
-                                            </div>
 
                                             <div class="row mb-3">
                                                 <label class="col-sm-2 col-form-label"
-                                                    for="exampleFormControlSelect1">Kind</label>
+                                                    for="exampleFormControlSelect1">Code</label>
                                                 <div class="col-sm-10">
                                                     <select class="form-select" id="exampleFormControlSelect1"
                                                         aria-label="Countries">
                                                         <option selected>Open this select menu</option>
-                                                        <option value="1">male</option>
-                                                        <option value="2">Female</option>
-
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
                                                     </select>
                                                 </div>
 
                                             </div>
                                             <div class="row mb-3">
                                                 <label class="col-sm-2 col-form-label"
-                                                    for="html5-datetime-local-input">Birth Date</label>
+                                                    for="exampleFormControlSelect1">20</label>
                                                 <div class="col-sm-10">
-                                                    <input class="form-control" type="datetime-local"
-                                                        id="html5-datetime-local-input" />
-                                                </div>
-                                            </div>
-                                            <div class=" row mb-3">
-                                                <label for="formFile" class="col-sm-2 col-form-label">Img
-                                                </label>
-                                                <div class="col-sm-10">
-                                                    <input class="form-control" type="file" id="formFile" />
+                                                    <select class="form-select" id="exampleFormControlSelect1"
+                                                        aria-label="Countries">
+                                                        <option selected>Open this select menu</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
                                                 </div>
 
                                             </div>
                                             <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-name">
-                                                    Address</label>
+                                                <label class="col-sm-2 col-form-label" for="exampleFormControlSelect1">2
+                                                    cases (23)</label>
                                                 <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="basic-default-name"
-                                                        placeholder="John Doe" />
+                                                    <select class="form-select" id="exampleFormControlSelect1"
+                                                        aria-label="Countries">
+                                                        <option selected>Open this select menu</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
                                                 </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-name">
-                                                    Location</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" class="form-control" id="basic-default-name"
-                                                        placeholder="John Doe" />
-                                                </div>
-                                            </div>
-
-
-                                            <div class="card-header d-flex align-items-center justify-content-between">
-                                                <h5 class="mb-0 text-danger">Not Allowed To Input</h5>
 
                                             </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    Latitude</label>
-                                                <div class="col-sm-10">
-                                                    <input type="number" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder="0"
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-default-phone" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    Longitude</label>
-                                                <div class="col-sm-10">
-                                                    <input type="number" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder="0"
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-default-phone" />
-                                                </div>
-                                            </div>
 
-
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    phone number</label>
-                                                <div class="col-sm-10">
-                                                    <input type="number" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder="0"
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-default-phone" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    Mobile phone</label>
-                                                <div class="col-sm-10">
-                                                    <input type="number" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder="0"
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-default-phone" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    Email</label>
-                                                <div class="col-sm-10">
-                                                    <input type="email" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder=""
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-default-phone" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    Website</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder=""
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-default-phone" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label" for="basic-default-phone">
-                                                    Branch</label>
-                                                <div class="col-sm-10">
-                                                    <input type="text" id="basic-default-phone"
-                                                        class="form-control phone-mask" placeholder=""
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-default-phone" />
-                                                </div>
-                                            </div>
-                                            <div class="row mb-3">
-                                                <label class="col-sm-2 col-form-label"
-                                                    for="basic-default-message">Notes</label>
-                                                <div class="col-sm-10">
-                                                    <textarea id="basic-default-message" class="form-control"
-                                                        placeholder="Hi, Do you have a moment to talk Joe?"
-                                                        aria-label="Hi, Do you have a moment to talk Joe?"
-                                                        aria-describedby="basic-icon-default-message2"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="row justify-content-end ">
-                                                <div class="col-sm-10">
-                                                    <button type="submit" class="btn btn-primary w-100">Send</button>
-                                                </div>
-                                            </div>
                                         </form>
                                     </div>
                                 </div>
@@ -700,8 +574,171 @@
 
 
                         </div>
+                        <!-- table -->
+                        <div class="card text-center">
+
+                            <div class="table-responsive text-nowrap">
+                                <!-- select all btn -->
+                                <button id="select-all-btn" class="btn btn-primary m-3 w-100">Select
+                                    All</button>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>id</th>
+                                            <th>select</th>
+                                            <th>Number</th>
+                                            <th>Name</th>
+                                            <th>Location</th>
+                                            <th>Project</th>
+                                            <th>Action</th>
+                                            <th>Nots</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-border-bottom-0">
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                157666
+                                            </td>
+                                            <td>
+                                                c part 227
+                                            </td>
+                                            <td>
+                                                Location
+                                            </td>
+                                            <td>
+                                                maady
+                                            </td>
+                                            <td>
+                                                <a href="real-estate-buildings-add-building.html"><i
+                                                        style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                157666
+                                            </td>
+                                            <td>
+                                                c part 227
+                                            </td>
+                                            <td>
+                                                Location
+                                            </td>
+                                            <td>
+                                                maady
+                                            </td>
+                                            <td>
+                                                <a href="real-estate-buildings-add-building.html"><i
+                                                        style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                157666
+                                            </td>
+                                            <td>
+                                                c part 227
+                                            </td>
+                                            <td>
+                                                Location
+                                            </td>
+                                            <td>
+                                                maady
+                                            </td>
+                                            <td>
+                                                <a href="real-estate-buildings-add-building.html"><i
+                                                        style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- Outline rounded Pagination -->
+                            <nav aria-label="Page navigation" class="d-flex justify-content-center align-items-center">
+                                <ul class="pagination pagination-rounded pagination-outline-primary m-0 p-3">
+                                    <li class="page-item first">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-double-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item prev">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">2</a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="javascript:void(0);">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">4</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">5</a>
+                                    </li>
+                                    <li class="page-item next">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item last">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-double-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!--/ Outline rounded Pagination -->
+                        </div>
+                        <!--/ Contextual Classes -->
+                        <!-- / Activity Logs -->
                     </div>
                     <!-- / Content -->
+
                     <div class="content-backdrop fade"></div>
                 </div>
                 <!-- Content wrapper -->
@@ -736,6 +773,16 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+        document.getElementById('select-all-btn').addEventListener('click', function () {
+            const checkboxes = document.querySelectorAll('.form-check-input');
+            const allSelected = Array.from(checkboxes).every(checkbox => checkbox.checked);
+
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = !allSelected;
+            });
+        });
+    </script>
 </body>
 
 </html>
