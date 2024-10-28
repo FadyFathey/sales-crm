@@ -7,8 +7,11 @@
     <meta charset="utf-8" />
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Dashboard - Analytics | Materio - Bootstrap Material Design Admin Template</title>
+    <title>real estate buildings unit price plans list</title>
 
     <meta name="description" content="" />
 
@@ -73,7 +76,7 @@
 
                 <ul class="menu-inner py-1">
                     <!-- Dashboards -->
-                    <li class="menu-item active open">
+                    <li class="menu-item active">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-home-outline"></i>
                             <div data-i18n="Dashboards">Dashboards</div>
@@ -94,7 +97,7 @@
                                     <div data-i18n="Analytics">Sales Admin</div>
                                 </a>
                             </li>
-                            <li class="menu-item active">
+                            <li class="menu-item">
                                 <a href="sales-dashboard.html" class="menu-link">
                                     <div data-i18n="Analytics">Sales</div>
                                 </a>
@@ -105,7 +108,7 @@
                     <!-- Pages -->
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons mdi mdi-account-outline"></i>
+                            <i class="menu-icon tf-icons mdi mdi-account"></i>
                             <div data-i18n="Account Settings">Account Settings</div>
                         </a>
                         <ul class="menu-sub">
@@ -125,7 +128,7 @@
 
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
-                            <i class="menu-icon tf-icons mdi mdi-account-outline"></i>
+                            <i class="menu-icon tf-icons mdi mdi-flower"></i>
                             <div data-i18n="Account Settings">System Managment</div>
                         </a>
                         <ul class="menu-sub">
@@ -166,13 +169,13 @@
                         </ul>
                     </li>
 
-                    <li class="menu-item">
+                    <li class="menu-item open">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons mdi mdi-vector-square"></i>
                             <div data-i18n="Account Settings">Customer Relationship Management</div>
                         </a>
                         <ul class="menu-sub">
-                            <li class="menu-item">
+                            <li class="menu-item active">
                                 <a href="profile.html" class="menu-link">
                                     <div data-i18n="Account">Leads</div>
                                 </a>
@@ -507,307 +510,282 @@
                 <div class="content-wrapper">
                     <!-- Content -->
                     <div class="container-xxl flex-grow-1 container-p-y">
-                        <div class="card">
-                            <div class="card-header d-flex align-items-center justify-content-between">
-                                <h5 class="card-title m-0 me-2">Accounts Status</h5>
-                            </div>
-                            <div class="card-body">
-                                <hr>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
+                        <!-- Dashboard -->
+
+                        <!-- / Dashboard -->
+                        <!-- Activity Logs -->
+                        <!-- Contextual Classes -->
+                        <!-- dropdown menu -->
+                        <div class="row">
+                            <!-- Basic Layout -->
+                            <div class="col-xxl">
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="row">
+                                                <!-- First Select -->
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="d-flex align-items-center">
+                                                        <label class="form-label me-2 mb-0" for="select1">Code</label>
+                                                        <select class="form-select" id="select1" aria-label="Countries">
+                                                            <option selected>Open this select menu</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Second Select -->
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="d-flex align-items-center">
+                                                        <label class="form-label me-2 mb-0" for="select2">20</label>
+                                                        <select class="form-select" id="select2" aria-label="Countries">
+                                                            <option selected>Open this select menu</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Third Select -->
+                                                <div class="col-md-3 mb-3">
+                                                    <div class="d-flex align-items-center">
+                                                        <label class="form-label me-2 mb-0"
+                                                            for="select3">Current(23)</label>
+                                                        <select class="form-select" id="select3" aria-label="Countries">
+                                                            <option selected>Open this select menu</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 mb-3 d-flex align-items-center">
+                                                    <div class="d-flex align-items-center">
+                                                        <label class="form-label me-2 mb-0 cursor-pointer"
+                                                            for="select3"><i class="fa-solid fa-eye fa-xl"></i></label>
+                                                        <label class="form-label me-2 m-lg-2 mb-0 cursor-pointer"
+                                                            for="select3"><i
+                                                                class="fa-solid fa-eye-slash fa-xl"></i></label>
+                                                        <label class="form-label me-2 m-lg-2 mb-0 cursor-pointer"
+                                                            for="select3"><i
+                                                                class="fa-solid fa-file-import fa-xl"></i></label>
+                                                        <label class="form-label me-2 m-lg-2 mb-0 cursor-pointer"
+                                                            for="select3"><i
+                                                                class="fa-solid fa-file-arrow-down fa-xl"></i></label>
+
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-success" style="padding: 15px;">Online</span>
+                                        </form>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-success" style="padding: 15px;">Online</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-success" style="padding: 15px;">Online</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-success" style="padding: 15px;">Online</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-success" style="padding: 15px;">Online</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-success" style="padding: 15px;">Online</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-success" style="padding: 15px;">Online</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-danger" style="padding: 15px;">Offline</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-danger" style="padding: 15px;">Offline</span>
-                                    </div>
-                                </div>
-                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
-                                    <div class="d-flex align-items-center">
-                                        <div class="avatar me-3">
-                                            <ul
-                                                class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                                                <li data-bs-toggle="tooltip" data-popup="tooltip-custom"
-                                                    data-bs-placement="top" class="avatar avatar-xs pull-up"
-                                                    aria-label="Lilian Fuller" data-bs-original-title="Lilian Fuller"
-                                                    style="width: 40px; height: 40px; border: 2px solid #e9e3e3; border-radius: 50%;">
-                                                    <img src="../assets/img/avatars/5.png" alt="Avatar"
-                                                        class="rounded-circle">
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <div class="d-flex align-items-center gap-1">
-                                                <h6 class="mb-0">Ahmed Ali</h6>
-                                            </div>
-                                            <small>Online Now</small>
-                                        </div>
-                                    </div>
-                                    <div class="text-end">
-                                        <span class="badge rounded-pill bg-danger" style="padding: 15px;">Offline</span>
-                                    </div>
-                                </div>
-                                <hr>
-                                <!-- Outline rounded Pagination -->
-                                <nav aria-label="Page navigation"
-                                    class="d-flex justify-content-center align-items-center">
-                                    <ul class="pagination pagination-rounded pagination-outline-primary m-0 p-3">
-                                        <li class="page-item first">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                <i class="tf-icon mdi mdi-chevron-double-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="page-item prev">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                <i class="tf-icon mdi mdi-chevron-left"></i>
-                                            </a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="javascript:void(0);">1</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="javascript:void(0);">2</a>
-                                        </li>
-                                        <li class="page-item active">
-                                            <a class="page-link" href="javascript:void(0);">3</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="javascript:void(0);">4</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="javascript:void(0);">5</a>
-                                        </li>
-                                        <li class="page-item next">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                <i class="tf-icon mdi mdi-chevron-right"></i>
-                                            </a>
-                                        </li>
-                                        <li class="page-item last">
-                                            <a class="page-link" href="javascript:void(0);">
-                                                <i class="tf-icon mdi mdi-chevron-double-right"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <!--/ Outline rounded Pagination -->
                             </div>
                         </div>
+                        <!-- table -->
+                        <div class="card text-center">
+
+                            <div class="table-responsive text-nowrap">
+                                <!-- select all btn -->
+                                <button id="select-all-btn" class="btn btn-primary m-3 w-100">Select
+                                    All</button>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>id</th>
+                                            <th>select</th>
+                                            <th>Name</th>
+                                            <th>Number of installments</th>
+                                            <th>Project</th>
+                                            <th>Action</th>
+                                            <th>Nots</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-border-bottom-0">
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                Cairo City
+                                            </td>
+                                            <td>
+                                                20
+                                            </td>
+                                            <td>
+                                                Project
+                                            </td>
+                                            <td>
+                                                <a href="add-sales-team.html"><i style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                Cairo City
+                                            </td>
+                                            <td>
+                                                <a href="real-estate-buildings-add-unit-price-plans-list.html"><i
+                                                        style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                Cairo City
+                                            </td>
+                                            <td>
+                                                <a href="add-sales-team.html"><i style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                Cairo City
+                                            </td>
+                                            <td>
+                                                <a href="add-sales-team.html"><i style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                Cairo City
+                                            </td>
+                                            <td>
+                                                <a href="add-sales-team.html"><i style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr class="table-primary">
+                                            <td>
+                                                <span class="fw-medium">1</span>
+                                            </td>
+                                            <td><input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" /></td>
+                                            <td>
+                                                Cairo City
+                                            </td>
+                                            <td>
+                                                <a href="add-sales-team.html"><i style="cursor: pointer;"
+                                                        class="fa-regular fa-pen-to-square"></i></a>
+                                                <i style="cursor: pointer;" class="fa-regular fa-eye-slash"></i>
+                                                <i style="cursor: pointer;" class="fa-solid fa-trash-can"></i>
+                                            </td>
+                                            <td>
+                                                <textarea hie class="form-control h-px-75"
+                                                    id="exampleFormControlTextarea1"
+                                                    placeholder="Comments here..."></textarea>
+                                            </td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- Outline rounded Pagination -->
+                            <nav aria-label="Page navigation" class="d-flex justify-content-center align-items-center">
+                                <ul class="pagination pagination-rounded pagination-outline-primary m-0 p-3">
+                                    <li class="page-item first">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-double-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item prev">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-left"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">2</a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="javascript:void(0);">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">4</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="javascript:void(0);">5</a>
+                                    </li>
+                                    <li class="page-item next">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="page-item last">
+                                        <a class="page-link" href="javascript:void(0);">
+                                            <i class="tf-icon mdi mdi-chevron-double-right"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!--/ Outline rounded Pagination -->
+                        </div>
+                        <!--/ Contextual Classes -->
+                        <!-- / Activity Logs -->
                     </div>
                     <!-- / Content -->
 
@@ -845,6 +823,16 @@
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script>
+        document.getElementById('select-all-btn').addEventListener('click', function () {
+            const checkboxes = document.querySelectorAll('.form-check-input');
+            const allSelected = Array.from(checkboxes).every(checkbox => checkbox.checked);
+
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = !allSelected;
+            });
+        });
+    </script>
 </body>
 
 </html>
